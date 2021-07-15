@@ -1,0 +1,10 @@
+com/example/layout_again/BuildConfig.java
+ com.example.layout_again.BuildConfig
+com/example/layout_again/databinding/ActivityCustomNameBinding.java
+ com.example.layout_again.databinding.ActivityCustomNameBinding
+com/example/layout_again/databinding/PlacesBinding.java
+ com.example.layout_again.databinding.PlacesBinding
+com/example/layout_again/DataBindingTriggerClass.java
+ com.example.layout_again.DataBindingTriggerClass
+com/example/layout_again/databinding/ActivityMainBinding.java
+ com.example.layout_again.databinding.ActivityMainBinding

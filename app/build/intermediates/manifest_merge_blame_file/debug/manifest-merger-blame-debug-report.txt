@@ -1,0 +1,79 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.layout_again"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/kaderabek/Desktop/Layout_Again2/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/kaderabek/Desktop/Layout_Again2/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/kaderabek/Desktop/Layout_Again2/app/src/main/AndroidManifest.xml:5:5-21:19
+12        android:allowBackup="true"
+12-->/Users/kaderabek/Desktop/Layout_Again2/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.6.0-beta02] /Users/kaderabek/.gradle/caches/transforms-3/009d8556ee56baa0d319dd0962ca9ac9/transformed/core-1.6.0-beta02/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/Users/kaderabek/Desktop/Layout_Again2/app/src/main/AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->/Users/kaderabek/Desktop/Layout_Again2/app/src/main/AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/Users/kaderabek/Desktop/Layout_Again2/app/src/main/AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->/Users/kaderabek/Desktop/Layout_Again2/app/src/main/AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.Layout_Again" >
+20-->/Users/kaderabek/Desktop/Layout_Again2/app/src/main/AndroidManifest.xml:11:9-50
+21        <activity android:name="com.example.layout_again.ui.view.CustomNameActivity" />
+21-->/Users/kaderabek/Desktop/Layout_Again2/app/src/main/AndroidManifest.xml:12:9-97
+21-->/Users/kaderabek/Desktop/Layout_Again2/app/src/main/AndroidManifest.xml:12:19-85
+22        <activity android:name="com.example.layout_again.Item_Add" />
+22-->/Users/kaderabek/Desktop/Layout_Again2/app/src/main/AndroidManifest.xml:13:9-46
+22-->/Users/kaderabek/Desktop/Layout_Again2/app/src/main/AndroidManifest.xml:13:19-43
+23        <activity android:name="com.example.layout_again.ui.view.MainActivity" >
+23-->/Users/kaderabek/Desktop/Layout_Again2/app/src/main/AndroidManifest.xml:14:9-20:20
+23-->/Users/kaderabek/Desktop/Layout_Again2/app/src/main/AndroidManifest.xml:14:19-79
+24            <intent-filter>
+24-->/Users/kaderabek/Desktop/Layout_Again2/app/src/main/AndroidManifest.xml:15:13-19:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/Users/kaderabek/Desktop/Layout_Again2/app/src/main/AndroidManifest.xml:16:17-69
+25-->/Users/kaderabek/Desktop/Layout_Again2/app/src/main/AndroidManifest.xml:16:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/Users/kaderabek/Desktop/Layout_Again2/app/src/main/AndroidManifest.xml:18:17-77
+27-->/Users/kaderabek/Desktop/Layout_Again2/app/src/main/AndroidManifest.xml:18:27-74
+28            </intent-filter>
+29        </activity>
+30
+31        <provider
+31-->[androidx.emoji2:emoji2:1.0.0-alpha02] /Users/kaderabek/.gradle/caches/transforms-3/c8d964abec1e30378577993991a64e40/transformed/jetified-emoji2-1.0.0-alpha02/AndroidManifest.xml:26:9-34:20
+32            android:name="androidx.startup.InitializationProvider"
+32-->[androidx.emoji2:emoji2:1.0.0-alpha02] /Users/kaderabek/.gradle/caches/transforms-3/c8d964abec1e30378577993991a64e40/transformed/jetified-emoji2-1.0.0-alpha02/AndroidManifest.xml:27:13-67
+33            android:authorities="com.example.layout_again.androidx-startup"
+33-->[androidx.emoji2:emoji2:1.0.0-alpha02] /Users/kaderabek/.gradle/caches/transforms-3/c8d964abec1e30378577993991a64e40/transformed/jetified-emoji2-1.0.0-alpha02/AndroidManifest.xml:28:13-68
+34            android:exported="false" >
+34-->[androidx.emoji2:emoji2:1.0.0-alpha02] /Users/kaderabek/.gradle/caches/transforms-3/c8d964abec1e30378577993991a64e40/transformed/jetified-emoji2-1.0.0-alpha02/AndroidManifest.xml:29:13-37
+35            <meta-data
+35-->[androidx.emoji2:emoji2:1.0.0-alpha02] /Users/kaderabek/.gradle/caches/transforms-3/c8d964abec1e30378577993991a64e40/transformed/jetified-emoji2-1.0.0-alpha02/AndroidManifest.xml:31:13-33:52
+36                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+36-->[androidx.emoji2:emoji2:1.0.0-alpha02] /Users/kaderabek/.gradle/caches/transforms-3/c8d964abec1e30378577993991a64e40/transformed/jetified-emoji2-1.0.0-alpha02/AndroidManifest.xml:32:17-75
+37                android:value="androidx.startup" />
+37-->[androidx.emoji2:emoji2:1.0.0-alpha02] /Users/kaderabek/.gradle/caches/transforms-3/c8d964abec1e30378577993991a64e40/transformed/jetified-emoji2-1.0.0-alpha02/AndroidManifest.xml:33:17-49
+38        </provider>
+39        <provider
+39-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/kaderabek/.gradle/caches/transforms-3/ee6ec00729e565d9e5e283d861107c7f/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+40            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+40-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/kaderabek/.gradle/caches/transforms-3/ee6ec00729e565d9e5e283d861107c7f/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+41            android:authorities="com.example.layout_again.lifecycle-process"
+41-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/kaderabek/.gradle/caches/transforms-3/ee6ec00729e565d9e5e283d861107c7f/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+42            android:exported="false"
+42-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/kaderabek/.gradle/caches/transforms-3/ee6ec00729e565d9e5e283d861107c7f/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+43            android:multiprocess="true" />
+43-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/kaderabek/.gradle/caches/transforms-3/ee6ec00729e565d9e5e283d861107c7f/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+44    </application>
+45
+46</manifest>
